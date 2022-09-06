@@ -1,0 +1,138 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+body{
+    background-color: #e88032;
+}
+.header{
+    color: white;
+    margin-top: 3rem;
+}
+
+.ques{
+    margin-top: 3rem;
+
+}
+.menu{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    border-radius: 5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    color:#edf6f9;
+    background-color: black;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    border: #e88032 solid 1px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.button1{
+    color:white;
+ 
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    border: #e88032 solid 1px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.heading{
+    background-color: black;
+    height: 5rem;
+    color: #e29578;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+a{
+    color:#edf6f9;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-right: 100px solid transparent;
+    margin:1rem;
+    margin-top: 2rem;
+  }
+.goback{
+    position: absolute;
+    left: 1px;
+    top: 1.5rem;
+}
+.button:hover{
+    color: #e29578;
+    background-color:  #edf6f9;
+}
+
+a:link{
+    color: white;
+}
+a:hover{
+    color: #e29578;
+    text-decoration: none;
+}
+
+.a{
+    position: absolute;
+    left:36rem;
+    color: #e29578;
+    font-weight: bolder;
+}
+form{
+    margin-top: 1rem;
+    color: white;
+}
+
+.b{
+    position: absolute;
+    left:39.4rem;
+    top: 13.2rem;
+    color: #e29578;
+    font-weight: bolder;
+}
+
+
+.c{
+    position: absolute;
+    left:40rem;
+    color: #e29578;
+    font-weight: bolder;
+}
+.score{
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: -1rem;
+    align-items: center;
+    text-justify: center;
+    text-align: center;
+}

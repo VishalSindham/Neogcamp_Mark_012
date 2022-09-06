@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Hypoteneous</title>
+</head>
+<body>
+    <div class="heading">
+       <a href="index.html">  <button class="button goback">Go Back</button></a>
+        <h3>Hypoteneous</h3>
+    </div>
+    <div class="center container-fluid">
+       
+        <div id="triangle"></div> 
+    
+    </div>
+    <div class="center container-fluid">
+        <form>
+        
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">a=</label>
+                  <div class="col-sm-10">
+                    <input type="number" type="number" min="0" oninput="validity.valid||(value='');" class="form-control" id="a" placeholder="Enter value of a">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">b=</label>
+                  <div class="col-sm-10">
+                    <input type="number" type="number" min="0" oninput="validity.valid||(value='');" class="form-control" id="b" placeholder="Enter value of b">
+                  </div>
+                </div>
+
+               <center><div class="button" id="hypo" >Submit</div></center> 
+               <p> Hypoteneus will be calculated here: <br> negative values are not taken as input  </p>
+
+              <center><div class="" id="hyporesult"style="font-size:1.25rem; margin:2rem"><b>c = √a<sup>2</sup>+b<sup></sup></b></div></center> 
+
+              
+    
+    </div>
+
+    <footer class="footer">
+      <div class="center">
+        <div>
+          <span class="button1"><a href="https://in.linkedin.com/in/vishal-sindham" target="_blank" class="button1" target="new">LinkedIn</a></span>
+          <span class="button1"><a href="https://github.com/VishalSindham" target="_blank" class="button1" target="new">Github</a></span>
+      </div>
+      </div>      
+    
+  </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
